@@ -86,7 +86,7 @@ namespace DevBuild3_2
                 }
                 else
                 {
-                    Console.WriteLine("Item doesn't exist");
+                    Console.WriteLine("Sorry, we don't have those. Please try again ");
                     
                 }
 
@@ -122,12 +122,14 @@ namespace DevBuild3_2
                 totalValue = totalValue + shoppingListMenu[itemInAddedCart];
                // Console.WriteLine(shoppingListMenu[itemInAddedCart]);
                 totalItem = totalItem + 1;
-                Console.WriteLine(itemInAddedCart);
+
+                
+                Console.WriteLine($"{itemInAddedCart} \t\t${shoppingListMenu[itemInAddedCart]}");
 
              
             }
 
-            Console.WriteLine($"average ${totalValue/totalItem}");
+            Console.WriteLine($"average price per item in order was  \t ${totalValue/totalItem}");
         }
 
          
