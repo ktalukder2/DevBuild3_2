@@ -109,7 +109,7 @@ namespace DevBuild3_2
                
 
             }
-            Console.WriteLine("Thanks for your order!");
+            Console.WriteLine("Thanks for . your order!");
             Console.WriteLine("Here's what you got: ");
             decimal totalValue = 0;
             int totalItem = 0;
